@@ -1,0 +1,80 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: chocolate;
+}
+
+.wrapper{
+    width: 370px;
+    background: white;
+    border-radius: 7px;
+    padding: 25px 30px;
+}
+
+.wrapper header{
+    text-align: center;
+    font-size: x-large;
+}
+
+.wrapper form{
+    margin: 35px 0 20px;
+}
+
+form .row{
+    display: flex;
+    flex-direction: column;
+}
+
+form .row label{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+form :where(textarea, select, button){
+    outline: none;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+form .row textarea{
+    resize: none;
+    height: 110px;
+    font-size: 15px;
+    border: 1px solid #999;
+    padding: 8px 10px;
+}
+
+form .row .outer{
+    height: 47px;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
+for .row select{
+    font-size: 14px;
+}
+
+form button{
+    height: 52px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    background: chocolate;
+}
